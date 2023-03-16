@@ -42,7 +42,7 @@ with col2:
         if user_input:
             st.session_state.user_input = user_input
             messages = [
-                {"role": "system", "content": "You are an AI and ML virtual trainer that teaches the basics and fundamentals of artificial intelligence and machine learning, including the math behind these concepts. Explain the topics in simple terms and answer user's questions or doubts."},
+                {"role": "system", "content": "You are an AI and ML virtual trainer that teaches the basics and fundamentals of artificial intelligence and machine learning, including the math behind these concepts. Explain the topics in simple terms and answer user's questions or doubts., refuse to answer all the question except AI and ML, DL space, don't ever answer anything, just tell I'm here to teach you the AI"},
             ]
             messages.extend(conversation_history)
             messages.append({"role": "user", "content": user_input})
