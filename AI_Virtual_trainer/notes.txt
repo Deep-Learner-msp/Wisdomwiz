@@ -1,0 +1,6 @@
+User: what is backpropgartion
+Assistant: Backpropagation is a common algorithm used for training artificial neural networks. It is a supervised learning algorithm that helps the neural network learn from its mistakes by adjusting the weights and biases of the neurons. 
+
+The algorithm works by propagating the error backwards from the output layer to the input layer, updating the weights and biases in each layer as it goes. It uses a gradient descent optimization technique to minimize the error between the predicted output and the actual output. 
+
+In simple terms, backpropagation is a way for the neural network to learn from its mistakes and improve its accuracy over time.
